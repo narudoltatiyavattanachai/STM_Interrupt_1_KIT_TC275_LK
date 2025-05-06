@@ -30,5 +30,19 @@ SECONDARY_SIZE :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+Configurations/Debug \
 . \
+Libraries/Infra/Platform/Tricore/Compilers \
+Libraries/Service/CpuGeneric/SysSe/Bsp \
+Libraries/iLLD/TC27D/Tricore/Cpu/CStart \
+Libraries/iLLD/TC27D/Tricore/Cpu/Std \
+Libraries/iLLD/TC27D/Tricore/Cpu/Trap \
+Libraries/iLLD/TC27D/Tricore/Gtm/Std \
+Libraries/iLLD/TC27D/Tricore/Mtu/Std \
+Libraries/iLLD/TC27D/Tricore/Port/Std \
+Libraries/iLLD/TC27D/Tricore/Scu/Std \
+Libraries/iLLD/TC27D/Tricore/Src/Std \
+Libraries/iLLD/TC27D/Tricore/Stm/Std \
+Libraries/iLLD/TC27D/Tricore/_Impl \
+Libraries/iLLD/TC27D/Tricore/_PinMap \
 
